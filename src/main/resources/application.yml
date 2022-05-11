@@ -1,0 +1,19 @@
+#Anything that goes here is made globally for all profiles
+spring:
+  application:
+    name: fems
+
+---
+#Anything that goes here is made specifically for local's profile
+spring:
+  profiles: local, default
+server:
+  port: 8082
+#ui:
+#  url: http://localhost:4200
+#post:
+#  url: http://localhost:8081
+#comment:
+#  url: http://localhost:8083
+#user:
+#  url: http://localhost:8084
